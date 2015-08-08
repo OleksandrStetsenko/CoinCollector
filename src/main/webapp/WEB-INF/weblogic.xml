@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+  <jsp-descriptor>
+    <keepgenerated>true</keepgenerated>
+    <debug>true</debug>
+    
+  </jsp-descriptor>
+  <resource-description>
+      <res-ref-name>dataSource</res-ref-name>
+       <jndi-name>myJNDIDBName</jndi-name>
+  </resource-description>
+  <context-root>coincollector</context-root>
+</weblogic-web-app>
